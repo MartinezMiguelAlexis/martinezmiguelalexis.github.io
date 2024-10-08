@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #f44336;
+}
+    .logoEImagen{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .enlaces a{
+        padding-left: 2px;
+        padding-right: 2px;
+        color: white;
+    }
+
+.panel1{
+    height: 100vh;
+    background: linear-gradient(#f44336,#e91e63);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    .panel1 div{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .texto{
+        width: 60%;
+    }
+
+.panel2{
+    height: 60vh;
+}
+    .comoFunciona{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .how{
+            font-size: xx-large;
+        }
+        .comoFunciona div{
+            margin-top: 5%;
+        }
+    .ventajas{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+        .ventajas h4{
+            font-size: xx-large;
+        }
+        .ventajas p{
+            width: 80%;
+            align-items: center;
+        }
+        
+
+.panel3{
+    height: 80vh;
+    background-color: gainsboro;
+}
+    .caracteristicasAvanzadas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .caracteristicasAvanzadas div{
+            margin-top: 5%;
+        }
+        .advance{
+            font-size: xx-large;
+        }
+    .caracteristicasEImagen{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+        .caracteristicasIzquierda .titoloEImagen{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: baseline;
+        }
+        .caracteristicasIzquierda .descrip{
+            margin-left: 45%;
+            width: 55%;
+        }
+        .caracteristicasDerecha .descrip{
+            margin-right: 45%;
+            width: 55%;
+        }
+        .caracteristicasDerecha .titoloEImagen{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: baseline;
+        }
