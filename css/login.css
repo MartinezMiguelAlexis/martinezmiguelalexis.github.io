@@ -92,3 +92,12 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
+        .botonGithub{
+            margin-right: 10px;
+        }
+        .botonGoogle{
+            margin-left: 10px;
+        }
+        .botonesAlternativas a{
+            text-decoration: none;
+        }
