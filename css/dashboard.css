@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+    .lateral{
+        position: relative;
+        background: #5552ac;
+        left: 0;
+        height: 100vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+        .lateral div{
+            height: 6vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 10vh;
+            padding-left: 10px;
+        }
+        .icons{
+            width: 3vh;
+        }
+        #logoColibri{
+            align-self: center;
+            margin-top: 12vh;
+            height: 30vh;
+            width: 30vh;
+        }
+        .latPerfil{
+            background: #dfeafb;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+    .pagPerfil{
+        background: #dfeafb;
+        height: 100vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .barraSup{
+            background: white;
+            width: 90%;
+            height: 5vh;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .busqueda{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+                .busqueda img{
+                    height: 3vh;
+                    align-self: center;
+                    background-color: white;
+                }
+                #salida{
+                    margin-left: 2vh;
+                }
+
+        .contenido{
+            display: flex;
+            flex-direction: row;
+        }
+            .datosYCursos{
+                display: flex;
+                flex-direction: column;
+                height: max-content;
+            }
+                .datos{
+                    display: flex;
+                    flex-direction: row;
+                    background: #fffeff;
+                    margin-top: 5vh;
+                    margin-left: 5vh;
+                    margin-right: 2vh;
+                    height: 30vh;
+                    width: 90vh;
+                    border-radius: 20px;
+                }
+                    .datosPersonales{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        width: 60%;
+                    }
+                        .datosPersonales div{
+                            margin: 1vh;
+                        }
+                        .nombre{
+                            font-size: x-large;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 100%;
+                        }
+                            #imgEditar{
+                                height: 25px;
+                                margin-right: 2vh;
+                            }
+                        .logosRedes{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            width: 100%;
+                        }
+                            .logosRedes img{
+                                width: 3vh;
+                            }
+                    .imagenPerfil{
+                        width: 40%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        #imgPersonalUsuario{
+                            width: 25vh;
+                        }
+                .misCursos{
+                    background: #fffeff;
+                    margin-top: 5vh;
+                    margin-left: 5vh;
+                    margin-right: 2vh;
+                    height: 45vh;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2vh;
+                }
+                    .contenidoMisCursos{
+                        display: flex;
+                        flex-direction: column;
+                        height: 90%;
+                        justify-content: space-around;
+                    }
+                        .contenidoMisCursos b{
+                            font-size: large;
+                        }
+                        .contenidoMisCursos p{
+                            margin: 2px;
+                        }
+                        .curso1{
+                            background-color: #eaebff;
+                            border-radius: 20px;
+                            margin: 2vh;
+                            padding: 1vh;
+                            height: 100%;
+                        }
+                        .curso2{
+                            background-color: #f8e8ff;
+                            border-radius: 20px;
+                            margin: 2vh;
+                            padding: 1vh;
+                            height: 100%;
+                        }
+                        .curso3{
+                            background-color: #f9e9f3;
+                            border-radius: 20px;
+                            margin: 2vh;
+                            padding: 1vh;
+                            height: 100%;
+                        }
+                    .tituloCursos{
+                        font-size: x-large;
+                    }
+
+            .detallesPagoYSuscripcion{
+                display: flex;
+                flex-direction: column;
+                height: max-content;
+            }
+                .detallesPago{
+                    background: #fffeff;
+                    margin-top: 5vh;
+                    margin-left: 3vh;
+                    margin-right: 5vh;
+                    height: 30vh;
+                    width: 50vh;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 3vh 7vh;
+                }
+                    .tituloDetallesPago{
+                        font-size: x-large;
+                        margin-bottom: 2vh;
+                        height: 10%;
+                    }
+                    .infoTarjeta{
+                        height: 45%;
+                    }
+                            .numTarjeta{
+                                background: #efefef;
+                                color: #93929f;
+                                border-radius: 20px;
+                                height: 4vh;
+                                align-content: center;
+                                padding-left: 1vh;
+                                margin-top: 1vh;
+                            }
+                    .metodosPago{
+                        height: 45%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                    }
+                        .metodosPago img{
+                            height: 5vh;
+                            width: 15vh;
+                        }
+                .suscripcion{
+                    background: #5553ac;
+                    margin-top: 5vh;
+                    margin-left: 3vh;
+                    margin-right: 5vh;
+                    height: 45vh;
+                    border-radius: 20px;
+                    padding: 3vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                    .textoYLista{
+                        color: white;
+                    }
+                        #subInd{
+                            font-size: xx-large;
+                        }
+                        #premSucc{
+                            font-size: x-large;
+                        }
+                        .textoYLista ul{
+                            margin-left: 5vh;
+                        }
+                        .textoYLista li{
+                            font-size: large;
+                            margin: 1vh;
+                        }
+                    .botonSuscribirse{
+                        background-color: white;
+                        height: 5vh;
+                        width: 15vh;
+                        display: flex;
+                        justify-content:space-around;
+                        align-items: center;
+                        border-radius: 20px;
+                        color: #5552ac;
+                    }
+                        .botonSuscribirse a{
+                            text-decoration: none;
+                        }
+                    .botonSuscribirse:hover{
+                        background-color: #5552ac;
+                        a{
+                            color: white;
+                        }
+                    }
