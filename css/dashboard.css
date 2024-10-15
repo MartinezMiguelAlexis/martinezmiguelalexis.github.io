@@ -18,6 +18,10 @@ body{
         display: flex;
         flex-direction: column;
     }
+        .lateral a{
+            text-decoration: none;
+            color: white;
+        }
         .lateral div{
             height: 6vh;
             display: flex;
@@ -39,6 +43,17 @@ body{
             background: #dfeafb;
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
+            a {
+                color: #5552ac;
+            }
+        }
+        #butt:hover{
+            background: #dfeafb;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            a{
+                color: #5552ac;
+            }
         }
 
     .pagPerfil{
